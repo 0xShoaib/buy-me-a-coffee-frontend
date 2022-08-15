@@ -15,7 +15,7 @@ const Footer = () => {
       </p>
       <div className="socials">
         <a
-          href="https://twitter.com/shoaib_eth"
+          href="https://twitter.com/0xShoaib"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
         <span>·</span>
         <a
-          href="https://github.com/shoaib-03"
+          href="https://github.com/0xShoaib/buy-me-a-coffee-frontend"
           target="_blank"
           rel="noopener noreferrer"
         >
