@@ -1,0 +1,156 @@
+/* Wrapper */
+.buy-coffee-card {
+  width: 245px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+/* Title */
+.buy-coffee-card--title {
+  margin: 0;
+  margin-bottom: 1rem;
+
+  width: 15.3125rem;
+
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.buy-coffee-card--title span {
+  color: var(--brand);
+}
+
+/* Tip */
+.buy-coffee-card--tip {
+  width: 245px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+
+  border-radius: 4px;
+  border: 1px solid var(--brand);
+
+  background-color: rgba(254, 144, 22, 0.05);
+}
+
+.buy-coffee-card--tip p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.buy-coffee-card--tip button,
+.buy-coffee-card--tip input {
+  width: 40px;
+  height: 40px;
+
+  padding: 1px 5px;
+
+  font-size: 14px;
+  text-align: center;
+
+  border-radius: 4px;
+  border: 0.0625rem solid var(--light-gray);
+  background-color: var(--white);
+}
+
+.buy-coffee-card--tip button {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  color: var(--brand);
+
+  cursor: pointer;
+  border-radius: 1rem;
+  border-color: var(--brand);
+}
+
+.buy-coffee-card--tip button.active {
+  color: var(--white);
+  background-color: var(--brand);
+}
+
+/* Chrome, Safari, Edge, Opera */
+.buy-coffee-card--tip input::-webkit-outer-spin-button,
+.buy-coffee-card--tip input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.buy-coffee-card--tip input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Form */
+.buy-coffee-card--group {
+  width: 15.3125rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 0.5rem;
+}
+
+.buy-coffee-card--label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.buy-coffee-card--input,
+.buy-coffee-card--textarea {
+  padding: 0.75rem;
+
+  font-size: 0.875rem;
+  color: var(--black);
+
+  border-radius: 0.25rem;
+  background-color: rgba(0, 0, 0, 0.02);
+  border: 0.0625rem solid var(--light-gray);
+}
+
+.buy-coffee-card--textarea {
+  resize: none;
+  max-height: 200px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Button */
+.buy-coffee-card--btn {
+  width: max-content;
+  min-width: 245px;
+
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0.8rem;
+
+  cursor: pointer;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  background-color: var(--brand);
+}
+
+.buy-coffee-card--btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

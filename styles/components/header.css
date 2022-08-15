@@ -1,0 +1,80 @@
+header {
+  margin: 1.5rem auto;
+  padding: 0.875rem 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 35px;
+  height: 40px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Button */
+.action-btn {
+  padding: 6px 8px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: all 0.2s ease;
+
+  border: 1px solid var(--brand);
+  border-radius: 4px;
+
+  color: var(--brand);
+  background-color: transparent;
+}
+
+.action-btn:hover {
+  color: var(--white);
+  background-color: var(--brand);
+}
+
+.action-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.action-btn:disabled:hover {
+  color: var(--brand);
+  background-color: transparent;
+}
+
+.account-addrs {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+
+  font-weight: 800;
+  transition: all 0.2s ease;
+
+  cursor: pointer;
+}
+
+.account-addrs:hover {
+  color: var(--brand);
+}
+
+.owner-panel {
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: var(--brand);
+
+  border: 1px solid var(--brand-bg);
+  background-color: var(--brand-bg);
+}
+
+.owner-panel:hover {
+  border-color: var(--brand);
+}

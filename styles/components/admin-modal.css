@@ -1,0 +1,81 @@
+.ReactModal__Content {
+  max-width: 480px;
+  max-height: 430px;
+  margin: auto;
+}
+
+.admin-modal .buy-coffee-card--group {
+  width: 100%;
+}
+
+.admin-modal .buy-coffee-card--label {
+  margin-bottom: 0.5rem;
+}
+
+.admin-modal .buy-coffee-card--btn {
+  width: 100%;
+  min-width: auto;
+  margin-top: 0;
+}
+
+.admin-modal .buy-coffee-card--btn.no-bg {
+  margin-top: 1rem;
+  color: var(--brand);
+  border: 1.5px solid var(--brand);
+  background-color: var(--white);
+}
+
+.admin-modal .divider {
+  width: 100%;
+  height: 2px;
+  margin: 3rem 0;
+  border-radius: 1px;
+
+  position: relative;
+  background-color: var(--light-gray);
+}
+
+.admin-modal .divider span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 14px;
+  font-weight: 800;
+
+  padding: 0.5rem;
+
+  background-color: var(--white);
+}
+
+.admin-modal .memo-list-card--helper-text {
+  margin-bottom: 0;
+  margin-top: 2rem;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.admin-modal-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.close-btn {
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  border: 1px solid var(--gray);
+
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--gray);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
